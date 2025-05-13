@@ -25,16 +25,18 @@ export const Projects = () => {
                 Vercel and hosted on GitHub.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Tailwind", "JavaScript", "Vercel"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                {["React", "TailwindCSS", "JavaScript", "Vite"].map(
+                  (tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                 "
-                  >
-                    {tech}
-                  </span>
-                ))}
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
               </div>
 
               <div className="flex justify-between items-center">
@@ -50,13 +52,15 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all ">
               <h3 className="text-xl font-bold mb-2">
                 {" "}
-                Porsche Clone Website{" "}
+                RestExplorer{" "}
               </h3>
               <p className="text-gray-400 mb-4">
-                A fully responsive Porsche-themed website with sleek design that
+                A responsive web app that displays detailed information about
+                countries using the REST Countries API. Built with dynamic
+                routing and a clean UI for an intuitive browsing experience.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Html", "CSS", "Javascript", "Nodejs"].map((tech, key) => (
+                {["React", "React Router V7", "TailwindCSS", "Vite", "REST Countries API"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -70,7 +74,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://monil3571.github.io/Final-project-css/"
+                  href="https://rest-explorer.monilpatel.dev/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   {" "}
