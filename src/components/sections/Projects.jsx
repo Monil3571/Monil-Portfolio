@@ -50,17 +50,20 @@ export const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all ">
-              <h3 className="text-xl font-bold mb-2">
-                {" "}
-                RestExplorer{" "}
-              </h3>
+              <h3 className="text-xl font-bold mb-2"> RestExplorer </h3>
               <p className="text-gray-400 mb-4">
                 A responsive web app that displays detailed information about
                 countries using the REST Countries API. Built with dynamic
                 routing and a clean UI for an intuitive browsing experience.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "React Router V7", "TailwindCSS", "Vite", "REST Countries API"].map((tech, key) => (
+                {[
+                  "React",
+                  "React Router V7",
+                  "TailwindCSS",
+                  "Vite",
+                  "REST Countries API",
+                ].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -85,13 +88,16 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all ">
               <h3 className="text-xl font-bold mb-2">
                 {" "}
-                Porsche Clone Website{" "}
+                MERN Expense Tracker{" "}
               </h3>
               <p className="text-gray-400 mb-4">
-                A fully responsive Porsche-themed website with sleek design that
+                A responsive web app for tracking personal expenses, built with
+                the MERN stack. Features real-time transaction updates, clean
+                UI, and full CRUD functionality for seamless financial
+                management.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Html", "CSS", "Javascript", "Nodejs"].map((tech, key) => (
+                {["React", "Tailwind", "Nodejs", "Express", "Mongoose"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -105,7 +111,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://monil3571.github.io/Final-project-css/"
+                  href="https://finance-tracker.monilpatel.dev/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   {" "}
