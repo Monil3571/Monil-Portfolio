@@ -23,8 +23,12 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6 text-left">
-              Passionate developer with expertise in buidling scalable web
-              applications and creating innovative solutions.
+              Passionate and adaptable Full-Stack Web Developer skilled in
+              building scalable, user-focused applications using modern
+              technologies like the MERN stack. I enjoy turning ideas into
+              clean, functional, and responsive digital experiences. With a
+              foundation in both front-end and back-end development, I’m always
+              eager to learn, collaborate, and create impact through technology.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
@@ -70,8 +74,11 @@ export const About = () => {
                 </li>
 
                 <li>
-                  Relevant Coursework: Data Stuctures, Full-Stack Development,
-                  Cloud Computing, Internet of Things
+                  <strong>Relevant Coursework:</strong> Full-Stack Web
+                  Development (MERN Stack), Web Technologies, Database Systems
+                  (SQL & MongoDB), Software Engineering, Object-Oriented
+                  Programming (Java & Python), User Experience Design, API
+                  Development & Integration, Cloud Deployment
                 </li>
               </ul>
             </div>
