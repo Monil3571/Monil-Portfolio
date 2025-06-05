@@ -121,10 +121,15 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all ">
               <h3 className="text-xl font-bold mb-2">
                 {" "}
-                Porsche Clone Website{" "}
+                Layers SaaS Landing Page{" "}
               </h3>
               <p className="text-gray-400 mb-4">
-                A fully responsive Porsche-themed website with sleek design that
+                This project highlights a clean, modern, and fully responsive
+                landing page designed and developed using Next.js and Tailwind
+                CSS. Emphasizing pixel-perfect design, smooth animations, and
+                mobile-first responsiveness, the landing page demonstrates my
+                ability to create visually appealing and performant web
+                interfaces that deliver excellent user experiences.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Html", "CSS", "Javascript", "Nodejs"].map((tech, key) => (
@@ -141,7 +146,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://monil3571.github.io/Final-project-css/"
+                  href="https://layers-saas.monilpatel.dev/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   {" "}
