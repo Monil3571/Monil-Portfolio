@@ -15,14 +15,16 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Full-Stack Web Developer skilled in the MERN stack (MongoDB,
-            Express.js, React, Node.js), with additional experience in Java,
-            HTML, Tailwind CSS, JavaScript, Python, and PHP. I specialize in
-            building scalable, user-centric web applications that deliver
-            seamless user experiences. Driven by curiosity and a growth mindset,
-            I’m eager to contribute to forward-thinking teams and create
-            impactful digital solutions through clean, efficient, and
-            maintainable code.
+            Full-Stack Web Developer skilled in Next.js, the MERN stack
+            (MongoDB, Express.js, React, Node.js), and Tailwind CSS, with
+            additional experience in Java, HTML, JavaScript, Python, and PHP. I
+            specialize in building scalable, high-performance web
+            applications—leveraging Next.js for server-side rendering and static
+            site generation, and Tailwind CSS for creating modern, responsive,
+            and visually appealing user interfaces. Driven by curiosity and a
+            growth mindset, I’m eager to contribute to forward-thinking teams
+            and deliver impactful digital solutions through clean, efficient,
+            and maintainable code.
           </p>
           <div className="flex justify-center space-x-4">
             <a
